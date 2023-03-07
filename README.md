@@ -21,6 +21,15 @@ cmake ..
 make
 sudo make install
 ``
+- 安装代码
+``
+sudo mkdir vins-fusion-esdfmap/src
+cd vins-fusion-esdfmap/src
+git clone git@github.com:huashu996/VINS-FUSION-ESDFmap.git
+cd ..
+catkin_make
+source devel/setup.bash
+``
 # 运行
 - 单目
 ``
